@@ -101,7 +101,7 @@ class WandbLogger():
         if self.wandb_run:
             if self.job_type == 'Training':
                 if not opt.resume:
-                    wandb_data_dict = self.check_and_upload_dataset(opt) if opt.upload_dataset else data_dict
+                    wandb_data_dict = data_dict
                     # Info useful for resuming from artifacts
                     self.wandb_run.config.opt = vars(opt)
                     self.wandb_run.config.data_dict = wandb_data_dict
