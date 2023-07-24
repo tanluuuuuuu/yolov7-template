@@ -1,0 +1,34 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: "/home/tanluuuuuuu/Desktop/luunvt/competitions/VIPriors Object Detection challenge/scr/datasets/DelftBikes/train.txt" 
+val: "/home/tanluuuuuuu/Desktop/luunvt/competitions/VIPriors Object Detection challenge/scr/datasets/DelftBikes/train.txt" 
+test: "/home/tanluuuuuuu/Desktop/luunvt/competitions/VIPriors Object Detection challenge/scr/datasets/DelftBikes/text.txt"
+
+# number of classes
+nc: 22
+
+# class names
+names: 
+  0: back_hand_break
+  1: back_handle
+  2: back_light
+  3: back_mudguard
+  4: back_pedal
+  5: back_reflector
+  6: back_wheel
+  7: bell
+  8: chain
+  9: dress_guard
+  10: dynamo
+  11: front_handbreak
+  12: front_handle
+  13: front_light
+  14: front_mudguard
+  15: front_pedal
+  16: front_wheel
+  17: gear_case
+  18: kickstand
+  19: lock
+  20: saddle
+  21: steer
